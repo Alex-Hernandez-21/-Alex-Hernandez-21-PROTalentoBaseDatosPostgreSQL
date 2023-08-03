@@ -16,8 +16,16 @@
 
 ![Consulta films](./imagenes/imag_2.PNG "punto2")
 
-Selecciona filas de la tabla film donde film_id sea menor que 4.
-Selecciona filas de la tabla film donde el rating sea PG o G.
+° Selecciona filas de la tabla film donde film_id sea menor que 4.
+
+            SELECT campos FROM tabla WHERE condicion
+
+`SELECT * FROM film WHERE film_id>4;`
+
+![Consulta films](./imagenes/imag_3.PNG "punto3")
+
+° Selecciona filas de la tabla film donde el rating sea PG o G.
+
 Selecciona filas de la tabla actor donde el nombre sea Angela, Angelina o Audrey usando IN.
 Obtén una lista de actores con el nombre Julia.
 Obtén una lista de actores con los nombres Chris, Cameron o Cuba.
