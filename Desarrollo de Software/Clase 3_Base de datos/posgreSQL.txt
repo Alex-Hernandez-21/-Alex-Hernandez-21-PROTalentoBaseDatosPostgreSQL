@@ -94,3 +94,12 @@ SELECT COUNT(*) FROM payment;
 SELECT COUNT(DISTINCT postal_code) FROM address;
 
 SELECT COUNT(DISTINCT postal_code) FROM address WHERE city_id<=200;
+
+--seleccionar unn limite de datos desde cierta posición OFFSET
+
+SELECT*FROM customer LIMIT 5 OFFSET 100;
+
+--mayusculas y minusculas no las indistingue 
+
+SELECT*FROM nombre tabla WHERE LOWER (first_name)='john'; convierte en minusculas
+SELECT*FROM nombre tabla WHERE UPPER (first_name)='john'; convierte en mayusculas
