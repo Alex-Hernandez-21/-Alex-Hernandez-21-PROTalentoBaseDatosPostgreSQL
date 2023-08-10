@@ -88,6 +88,12 @@
 `SELECT COUNT(rating)  FROM film WHERE rating='NC-17';`
 `SELECT COUNT(rating)  FROM film WHERE rating='PG' OR rating='PG-13';`
 
+`SELECT rating, COUNT(rating) FROM film`
+`WHERE rating='PG' OR`
+`rating = 'PG-13'`
+`rating ='NC-17'`
+`GROUP BY rating; `
+
 ![Consulta films](./imagenes/imag_13.PNG "punto13")
 
 14. ¿Cuántos clientes diferentes tienen registros en la tabla rental?
